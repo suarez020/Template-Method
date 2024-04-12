@@ -4,10 +4,13 @@ public class App {
         Proceso proceso2 = new CSVDataminer();
         Proceso proceso3 = new PDFDataMiner();
 
-        System.out.println("Ejecutando proceso 1:");
+        System.out.println("Ejecutando DocDataMiner:");
         proceso1.ejecutarProceso();
 
-        System.out.println("\nEjecutando proceso 2:");
+        System.out.println("\nEjecutando CSVDataminer:");
         proceso2.ejecutarProceso();
+        
+        System.out.println("\nEjecutando PDFDataMiner:");
+        proceso3.ejecutarProceso();
     }
 }
